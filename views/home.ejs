@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg
+    version="1.1"
+    baseProfile="full"
+    xmlns="http://www.w3.org/2000/svg"
+    id="svgMap">
+  </svg>
+  <select id="selectMapa">
+    <option value="Hombres">Cantidad de Hombres Presos</option>
+    <option value="Mujeres">Cantidad de Mujeres Presas</option>
+    <option value="poblacion">Cantidad de Habitantes</option>
+  </select>
+
+  <svg
+    version="1.1"
+    baseProfile="full"
+    xmlns="http://www.w3.org/2000/svg"
+    id="svgCuadro">
+  </svg>
+  <select id="selectTabla">
+    <option value="genero">Género</option>
+    <option value="delito">Delito</option>
+    <option value="niveldeInstrucción">Nivel de Instrucción</option>
+    <option value="nacionalidad">Nacionalidad</option>
+    <option value="estadoCivil">Estado Civil</option>
+    <option value="ultimaSituacionLaboral">Última Situación Laboral</option>
+    <option value="capacitacionLaboral">Capacitacion Laboral</option>
+    <option value="ultimoLugarDeResidencia">Último Lugar de Residencia</option>
+  </select>
+
+
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="home.js"></script>
+</body>
+</html>
