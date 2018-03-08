@@ -1,6 +1,6 @@
 d3.queue()
-  .defer(d3.json, '/argentina_indec.json')
-  .defer(d3.csv, './sneep-2016.csv', function(row) {
+  .defer(d3.json, '/data/argentina_indec.json')
+  .defer(d3.csv, './data/sneep-2016.csv', function(row) {
     return {
       sexo_id: row.sexo_id,
       nivel_instruccion_id: row.nivel_instruccion_id,
